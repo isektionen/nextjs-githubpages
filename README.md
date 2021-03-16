@@ -1,30 +1,45 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# nextjs-githubpages-example
 
-## Getting Started
+[![github-pages](https://github.com/isektionen/nextjs-githubpages-example/actions/workflows/github-pages.yml/badge.svg)](https://github.com/isektionen/nextjs-githubpages-example/actions/workflows/github-pages.yml)
 
-First, run the development server:
+Minimalistic example of a static [Next.js](https://nextjs.org/) web app deployed to [GitHub Pages](https://guides.github.com/features/pages/) using [GitHub Actions](https://docs.github.com/en/actions/).
 
-```bash
-npm run dev
-# or
-yarn dev
+## Example or it didn't happen
+
+The result of this repo is live [here](https://isektionen.github.io/nextjs-githubpages-example).
+
+## Ok, cool. How do I get started?
+
+Install the latest version of [Node.js](https://nodejs.org/en/)
+
+Clone the repo
+
+```
+git clone git@github.com:isektionen/nextjs-githubpages-example.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Install dependencies
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+```
+npm i
+```
 
-## Learn More
+Run local server
 
-To learn more about Next.js, take a look at the following resources:
+```
+npm run dev
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+You should be all set by now. Time to go crazy!
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## I want to do this by myself
 
-## Deploy on Vercel
+Sure. There's really not that many steps. Check out the [commit history here](https://github.com/isektionen/nextjs-githubpages-example/commits/main).
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Is there anything I can improve?
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- Image URL in `pages/index.js` is hard coded with the deployed app's base URL `/nextjs-githubpages-example/`. This does not work when running locally. Can we find a better solution here?
+
+## I have so many questions!
+
+Ping me anywhere and I'd be happy to answer them.
