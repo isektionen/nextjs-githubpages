@@ -8,6 +8,8 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-20.04
+    env:
+      BASE_PATH: /nextjs-githubpages-example
     steps:
       - uses: actions/checkout@v2
 
