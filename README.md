@@ -14,17 +14,24 @@ Follow the official instructions [here](https://docs.github.com/en/github/creati
 
 ## I've created the repo. Now what?
 
-Install [Node.js](https://nodejs.org/en/)
+Install
+
+- [Node.js](https://nodejs.org/en/)
+- [Yarn](https://classic.yarnpkg.com/en/docs/install/#mac-stable) (optional)
 
 Install dependencies
 
-```
+```bash
+yarn
+# or
 npm i
 ```
 
-Run local server
+Start your local server
 
-```
+```bash
+yarn dev
+# or
 npm run dev
 ```
 
