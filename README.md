@@ -1,6 +1,6 @@
 # nextjs-githubpages
 
-[![github-pages](https://github.com/isektionen/nextjs-githubpages-example/actions/workflows/github-pages.yml/badge.svg)](https://github.com/isektionen/nextjs-githubpages-example/actions/workflows/github-pages.yml)
+[![github-pages](https://github.com/isektionen/nextjs-githubpages/actions/workflows/github-pages.yml/badge.svg)](https://github.com/isektionen/nextjs-githubpages/actions/workflows/github-pages.yml)
 
 Template for a static [Next.js](https://nextjs.org/) web app deployed to [GitHub Pages](https://guides.github.com/features/pages/) using [GitHub Actions](https://docs.github.com/en/actions/).
 
