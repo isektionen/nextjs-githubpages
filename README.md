@@ -6,7 +6,7 @@ Template for a static [Next.js](https://nextjs.org/) web app deployed to [GitHub
 
 ## Pics or it didn't happen
 
-See the result of this repo [here](https://isektionen.github.io/nextjs-githubpages-example).
+See the result of this repo [here](https://isektionen.github.io/nextjs-githubpages).
 
 ## Create a repo from this template
 
