@@ -8,6 +8,8 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-20.04
+    env:
+      BASE_PATH: ${{secrets.BASE_PATH}}
     steps:
       - uses: actions/checkout@v2
 
