@@ -1,22 +1,20 @@
-# nextjs-githubpages-example
+# nextjs-githubpages
 
 [![github-pages](https://github.com/isektionen/nextjs-githubpages-example/actions/workflows/github-pages.yml/badge.svg)](https://github.com/isektionen/nextjs-githubpages-example/actions/workflows/github-pages.yml)
 
-Minimalistic example of a static [Next.js](https://nextjs.org/) web app deployed to [GitHub Pages](https://guides.github.com/features/pages/) using [GitHub Actions](https://docs.github.com/en/actions/).
+Template for a static [Next.js](https://nextjs.org/) web app deployed to [GitHub Pages](https://guides.github.com/features/pages/) using [GitHub Actions](https://docs.github.com/en/actions/).
 
 ## Example or it didn't happen
 
 The result of this repo is live [here](https://isektionen.github.io/nextjs-githubpages-example).
 
-## Ok, cool. How do I get started?
+## Create a repo from this template
 
-Install the latest version of [Node.js](https://nodejs.org/en/)
+Follow the official instructions [here](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template#creating-a-repository-from-a-template).
 
-Clone the repo
+## I've created the repo. Now what?
 
-```
-git clone git@github.com:isektionen/nextjs-githubpages-example.git
-```
+Install [Node.js](https://nodejs.org/en/)
 
 Install dependencies
 
@@ -36,7 +34,7 @@ You should be all set by now. Time to go crazy!
 
 Sure. There's really not that many steps. Check out the [commit history here](https://github.com/isektionen/nextjs-githubpages-example/commits/main).
 
-## Is there anything I can improve?
+## What needs to be improved on the template?
 
 - Image URL in `pages/index.js` is hard coded with the deployed app's base URL `/nextjs-githubpages-example/`. This does not work when running locally. Can we find a better solution here?
 
