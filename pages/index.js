@@ -57,7 +57,7 @@ export default function Home() {
           rel="noopener noreferrer"
         >
           Powered by{' '}
-          <img src="/nextjs-githubpages-example/vercel.svg" alt="Vercel Logo" className={styles.logo} />
+          <img src="/nextjs-githubpages/vercel.svg" alt="Vercel Logo" className={styles.logo} />
         </a>
       </footer>
     </div>
