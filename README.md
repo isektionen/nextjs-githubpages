@@ -4,9 +4,9 @@
 
 Template for a static [Next.js](https://nextjs.org/) web app deployed to [GitHub Pages](https://guides.github.com/features/pages/) using [GitHub Actions](https://docs.github.com/en/actions/).
 
-## Example or it didn't happen
+## Pics or it didn't happen
 
-The result of this repo is live [here](https://isektionen.github.io/nextjs-githubpages-example).
+See the result of this repo [here](https://isektionen.github.io/nextjs-githubpages-example).
 
 ## Create a repo from this template
 
