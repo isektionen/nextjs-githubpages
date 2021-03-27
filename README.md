@@ -4,44 +4,36 @@
 
 Template for a static [Next.js](https://nextjs.org/) web app deployed to [GitHub Pages](https://guides.github.com/features/pages/) using [GitHub Actions](https://docs.github.com/en/actions/).
 
-## Pics or it didn't happen
+The result of this repo can be seen at [https://isektionen.github.io/nextjs-githubpages](https://isektionen.github.io/nextjs-githubpages)
 
-See the result of this repo [here](https://isektionen.github.io/nextjs-githubpages).
+## Get started
 
-## Create a repo from this template
+1. Install [Node.js](https://nodejs.org/en/) and [Yarn](https://yarnpkg.com/getting-started/install) (optional)
+1. Click the green **Use this template** button on top of this page and follow the instructions. This creates a copy of this repo. You can read more about using templates [here](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template#creating-a-repository-from-a-template).
+1. Open your new repo on GitHub.
+1. Clone repo.
+   ```
+   git clone [your repository URL]
+   ```
+1. Install dependencies.
+   ```bash
+   yarn
+   # or
+   npm i
+   ```
+1. Start your local server.
+   ```bash
+   yarn dev
+   # or
+   npm run dev
+   ```
+1. Open [http://localhost:3000](http://localhost:3000) to verify that everything works.
 
-Follow the official instructions [here](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template#creating-a-repository-from-a-template).
+You should be all set by now. Start building your own web app by editing `/pages/index.js`.
 
-## I've created the repo. Now what?
+## Can I help out?
 
-Install
-
-- [Node.js](https://nodejs.org/en/)
-- [Yarn](https://classic.yarnpkg.com/en/docs/install/#mac-stable) (optional)
-
-Install dependencies
-
-```bash
-yarn
-# or
-npm i
-```
-
-Start your local server
-
-```bash
-yarn dev
-# or
-npm run dev
-```
-
-You should be all set by now. Time to go crazy!
-
-## I want to do this by myself
-
-Sure. There's really not that many steps. Check out the [commit history here](https://github.com/isektionen/nextjs-githubpages-example/commits/main).
-
-## What needs to be improved on the template?
+Yes! Some suggestions below:
 
 - Image URL in `pages/index.js` is hard coded with the deployed app's base URL `/nextjs-githubpages-example/`. This does not work when running locally. Can we find a better solution here?
 
